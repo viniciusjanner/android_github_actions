@@ -1,2 +1,2 @@
-# android_github_actions
-Implementação de pipeline com GitHub Actions.
+## GitHub Actions
+Implementação pipeline com GitHub Actions.
