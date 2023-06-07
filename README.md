@@ -1,2 +1,2 @@
 ## GitHub Actions
-Implementação pipeline com GitHub Actions.
+Implementação de pipeline com GitHub Actions.
