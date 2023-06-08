@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Actions</string>
+    <string name="home_title">GitHub Actions</string>
+    <string name="home_subtitle">Implementação de pipeline\ncom GitHub Actions.</string>
 </resources>
