@@ -4,5 +4,5 @@ object Config {
     const val targetSdk = 33
     const val versionCode = 1
     const val versionName = "1.0"
-    const val namespace = "com.viniciusjanner.android_ci_github_actions"
+    const val namespace = "com.viniciusjanner.android_github_actions"
 }
