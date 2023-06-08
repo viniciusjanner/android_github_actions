@@ -16,6 +16,12 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Theme.Splash" parent="Base.Theme.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@drawable/view_splash</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
     <style name="Theme.Main" parent="Base.Theme">
 
     </style>
