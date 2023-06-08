@@ -108,3 +108,4 @@ jobs:
           asset_path: ${{steps.id_sign_aab.outputs.signedReleaseFile}}
           asset_name: app-release-signed-${{ steps.id_tag_release.outputs.tag_release }}.aab
           asset_content_type: application/zip
+
