@@ -1,7 +1,23 @@
 <resources>
-    <style name="Base.Theme.Actions" parent="Theme.Material3.DayNight.NoActionBar">
+
+    <style name="Base.Theme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="Base.Theme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Main" parent="Base.Theme">
 
     </style>
 
-    <style name="Theme.Actions" parent="Base.Theme.Actions" />
 </resources>
