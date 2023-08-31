@@ -9,6 +9,6 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         Thread.sleep(1500)
         setTheme(R.style.Theme_Home)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_home)
     }
 }
