@@ -22,7 +22,7 @@
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
     </style>
 
-    <style name="Theme.Main" parent="Base.Theme">
+    <style name="Theme.Home" parent="Base.Theme">
 
     </style>
 
