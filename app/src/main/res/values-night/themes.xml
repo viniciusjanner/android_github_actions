@@ -16,10 +16,16 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Splash" parent="Base.Theme.NoActionBar">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowBackground">@drawable/view_splash</item>
-        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    <style name="Theme.Splash" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an animated drawable. One of these is required. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <!-- Required for animated icons -->
+        <item name="windowSplashScreenAnimationDuration">700</item>
+        <!-- Set the theme of the Activity that directly follows your splash screen. -->
+        <!-- Required -->
+        <item name="postSplashScreenTheme">@style/Theme.Home</item>
     </style>
 
     <style name="Theme.Home" parent="Base.Theme">

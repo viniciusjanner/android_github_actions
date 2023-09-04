@@ -52,4 +52,6 @@ dependencies {
     androidTestImplementation(Dependencies.Androidx.testEspresso)
     androidTestImplementation(Dependencies.Androidx.testJunit)
     testImplementation(Dependencies.Junit.junit)
+
+    implementation("androidx.core:core-splashscreen:1.0.0-alpha01")
 }
