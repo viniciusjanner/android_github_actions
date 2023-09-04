@@ -44,6 +44,7 @@ dependencies {
     implementation(Dependencies.Androidx.appCompat)
     implementation(Dependencies.Androidx.constraintLayout)
     implementation(Dependencies.Androidx.core)
+    implementation(Dependencies.Androidx.splashScreen)
 
     // google
     implementation(Dependencies.Google.material)
