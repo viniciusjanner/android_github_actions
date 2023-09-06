@@ -1,17 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Base.Theme" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-
-        <item name="android:windowBackground">@color/white</item>
-        <item name="android:colorBackground">@color/white</item>
+    <style name="Base.Theme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!--Color Primary-->
+        <item name="colorPrimary">@color/colorPrimary</item><!--Toolbar-->
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item><!--StatusBar-->
+        <item name="colorOnPrimary">@color/colorAccent</item>
+        <!--Color Secondary-->
+        <item name="colorSecondary">@color/colorPrimary</item><!--FloatActionButton-->
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/white</item><!--Cor icone FloatActionButton-->
+        <!--android-->
         <item name="android:breakStrategy" tools:targetApi="m">simple</item>
-        <item name="android:statusBarColor">@color/white</item>
-    </style>
-
-    <style name="Base.Theme.NoActionBar">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/colorStatusBarLight</item>
+        <item name="android:textColor">@color/colorTextDark</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!--app-->
+        <item name="tint">@color/black</item><!--Cor icone ImageView-->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
