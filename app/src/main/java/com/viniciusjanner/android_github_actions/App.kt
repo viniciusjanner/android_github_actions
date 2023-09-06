@@ -21,7 +21,7 @@ class App : Application() {
         dataStoreManager = DataStoreManager(this@App)
 
         val coroutineExceptionHandler = CoroutineExceptionHandler { _, throwable ->
-            Log.e("coroutineExceptionHandler", "throwable = ${throwable.message}")
+            Log.e("App", "coroutineExceptionHandler : throwable = ${throwable.message}")
             throwable.printStackTrace()
         }
 
