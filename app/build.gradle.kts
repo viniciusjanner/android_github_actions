@@ -15,6 +15,8 @@ android {
         versionName = Config.versionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -57,6 +59,8 @@ dependencies {
     implementation(Dependencies.Androidx.lifecycleRunTime)
     implementation(Dependencies.Androidx.lifecycleLiveData)
     implementation(Dependencies.Androidx.lifecycleViewModel)
+
+    implementation(Dependencies.Androidx.multidex)
 
     implementation(Dependencies.JetBrains.coroutinesAndroid)
     implementation(Dependencies.JetBrains.coroutinesCore)
