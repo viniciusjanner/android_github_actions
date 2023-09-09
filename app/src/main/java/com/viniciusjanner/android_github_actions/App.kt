@@ -1,8 +1,8 @@
 package com.viniciusjanner.android_github_actions
 
-import android.app.Application
 import android.util.Log
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.multidex.MultiDexApplication
 import com.viniciusjanner.android_github_actions.prefs.DataStoreManager
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope
@@ -10,7 +10,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlin.coroutines.CoroutineContext
 
-class App : Application() {
+class App : MultiDexApplication() {
 
     companion object {
         lateinit var dataStoreManager: DataStoreManager
