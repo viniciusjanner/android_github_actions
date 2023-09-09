@@ -14,6 +14,8 @@ object Dependencies {
         const val lifecycleLiveData  = "androidx.lifecycle:lifecycle-livedata-ktx:2.6.1"
         const val lifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1"
 
+        const val multidex           = "androidx.multidex:multidex:2.0.1"
+
         const val testJunit          = "androidx.test.ext:junit:1.1.5"
         const val testEspresso       = "androidx.test.espresso:espresso-core:3.5.1"
     }
