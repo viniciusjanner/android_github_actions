@@ -14,4 +14,7 @@
     <!--Others Colors-->
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+
+    <!--Splash Screen-->
+    <color name="colorSplashBackground">#000000</color>
 </resources>
