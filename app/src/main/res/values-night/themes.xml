@@ -3,18 +3,20 @@
     <style name="Base.Theme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!--Color Primary-->
         <item name="colorPrimary">@color/colorPrimaryDark</item><!--Toolbar-->
-        <item name="colorPrimaryVariant">@color/black</item><!--StatusBar-->
-        <item name="colorOnPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryVariant">@color/colorBlack</item><!--StatusBar-->
+        <item name="colorOnPrimary">@color/colorAccent</item><!--Toolbar Text-->
         <!--Color Secondary-->
         <item name="colorSecondary">@color/colorPrimaryDark</item><!--FloatActionButton-->
         <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
         <item name="colorOnSecondary">@color/colorAccent</item><!--Icon FloatActionButton-->
+        <!--Color Accent-->
+        <item name="colorAccent">@color/colorAccent</item>
         <!--android-->
         <item name="android:breakStrategy" tools:targetApi="m">simple</item>
-        <item name="android:colorBackground">@color/black</item>
+        <item name="android:colorBackground">@color/colorBlack</item>
         <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorStatusBarLight</item>
         <item name="android:textColor">@color/colorTextLight</item>
-        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowBackground">@color/colorBlack</item>
         <!--app-->
         <item name="tint">@color/colorPrimaryDark</item><!--Icon ImageView-->
         <item name="windowActionBar">false</item>
