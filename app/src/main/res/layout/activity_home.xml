@@ -78,19 +78,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_lightbulb" />
 
-    <Switch
+    <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/switchTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:checked="false"
         android:minHeight="48dp"
         android:padding="10dp"
         android:text="@string/home_mode_light"
-        android:trackTint="@drawable/selector_toggle"
-        android:trackTintMode="src_over"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         tools:ignore="UseSwitchCompatOrMaterialXml"
-        tools:textColor="@color/black" />
+        tools:textColor="@color/colorBlack" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
