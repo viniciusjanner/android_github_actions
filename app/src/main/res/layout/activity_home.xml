@@ -89,9 +89,9 @@
         android:text="@string/home_mode_light"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:thumbTint="@color/switch_thumb_selector"
+        app:thumbTint="@color/selector_switch_thumb"
         app:thumbTintMode="multiply"
-        app:trackTint="@color/switch_track_selector"
+        app:trackTint="@color/selector_switch_track"
         app:trackTintMode="multiply"
         tools:ignore="UseSwitchCompatOrMaterialXml"
         tools:textColor="@color/colorBlack" />
