@@ -10,6 +10,7 @@ import com.viniciusjanner.android_github_actions.App
 import com.viniciusjanner.android_github_actions.R
 import com.viniciusjanner.android_github_actions.databinding.ActivityHomeBinding
 import com.viniciusjanner.android_github_actions.prefs.ThemeMode
+import com.viniciusjanner.android_github_actions.util.AppConstants
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 
@@ -24,13 +25,13 @@ class HomeActivity : AppCompatActivity() {
         // Splash Screen
         runBlocking {
             when (Build.VERSION.SDK_INT) {
-                in 1..22 -> {
-                    delay(1700)
+                in AppConstants.sdkMin..AppConstants.sdkMax -> {
+                    delay(AppConstants.delay)
                     setTheme(R.style.Theme_Home)
                 }
                 else -> {
                     installSplashScreen()
-                    delay(1700)
+                    delay(AppConstants.delay)
                 }
             }
         }
