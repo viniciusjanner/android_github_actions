@@ -15,6 +15,8 @@ android {
         versionName = Config.versionName
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -37,20 +39,39 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
     // androidx
     implementation(Dependencies.Androidx.appCompat)
+
     implementation(Dependencies.Androidx.constraintLayout)
+
     implementation(Dependencies.Androidx.core)
-    implementation(Dependencies.Androidx.splashScreen)
+    implementation(Dependencies.Androidx.coerSplashScreen)
+
+    implementation(Dependencies.Androidx.dataStorePrefs)
+
+    implementation(Dependencies.Androidx.lifecycleRunTime)
+    implementation(Dependencies.Androidx.lifecycleLiveData)
+    implementation(Dependencies.Androidx.lifecycleViewModel)
+
+    implementation(Dependencies.Androidx.multidex)
+
+    implementation(Dependencies.JetBrains.coroutinesAndroid)
+    implementation(Dependencies.JetBrains.coroutinesCore)
 
     // google
     implementation(Dependencies.Google.material)
 
-    // test
+    // androidTest
     androidTestImplementation(Dependencies.Androidx.testEspresso)
     androidTestImplementation(Dependencies.Androidx.testJunit)
+
+    // test
     testImplementation(Dependencies.Junit.junit)
 }
