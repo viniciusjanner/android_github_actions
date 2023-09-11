@@ -4,19 +4,21 @@
         <!--Color Primary-->
         <item name="colorPrimary">@color/colorPrimary</item><!--Toolbar-->
         <item name="colorPrimaryVariant">@color/colorPrimaryDark</item><!--StatusBar-->
-        <item name="colorOnPrimary">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/colorAccent</item><!--Toolbar Text-->
         <!--Color Secondary-->
         <item name="colorSecondary">@color/colorPrimary</item><!--FloatActionButton-->
         <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
-        <item name="colorOnSecondary">@color/white</item><!--Icon FloatActionButton-->
+        <item name="colorOnSecondary">@color/colorWhite</item><!--Icon FloatActionButton-->
+        <!--Color Accent-->
+        <item name="colorAccent">@color/colorAccent</item>
         <!--android-->
         <item name="android:breakStrategy" tools:targetApi="m">simple</item>
-        <item name="android:colorBackground">@color/white</item>
+        <item name="android:colorBackground">@color/colorWhite</item>
         <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorStatusBarLight</item>
         <item name="android:textColor">@color/colorTextDark</item>
-        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
         <!--app-->
-        <item name="tint">@color/black</item><!--Icon ImageView-->
+        <item name="tint">@color/colorBlack</item><!--Icon ImageView-->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <!--Anim-->

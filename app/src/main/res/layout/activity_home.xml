@@ -26,7 +26,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:title="@string/app_name" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/imageView"
         android:layout_width="140dp"
         android:layout_height="140dp"
@@ -39,7 +39,7 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ic_github_logo" />
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -78,19 +78,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_lightbulb" />
 
-    <Switch
+    <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/switchTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:checked="false"
         android:minHeight="48dp"
         android:padding="10dp"
         android:text="@string/home_mode_light"
-        android:trackTint="@drawable/selector_toggle"
-        android:trackTintMode="src_over"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:thumbTint="@color/selector_switch_thumb"
+        app:thumbTintMode="multiply"
+        app:trackTint="@color/selector_switch_track"
+        app:trackTintMode="multiply"
         tools:ignore="UseSwitchCompatOrMaterialXml"
-        tools:textColor="@color/black" />
+        tools:textColor="@color/colorBlack" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
